@@ -29,10 +29,9 @@ def full?(board)
 end
 
 def draw?(board)
-  if position_taken?[board] == WIN_COMBINATIONS
-    return  true
-  else
+  if !won?[board] && full?[board]
+    return true
+  else 
     return false
-
   end
   end
