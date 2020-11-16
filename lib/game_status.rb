@@ -43,3 +43,11 @@ def draw?(board)
       return false
     end
   end
+def winner?(board)
+  if board == WIN_COMBINATIONS
+    return "X"
+  else
+    return "O"
+  end
+end
+  
