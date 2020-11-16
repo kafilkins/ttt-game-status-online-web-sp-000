@@ -25,5 +25,5 @@ return false
 end
 
 def full?(board)
-  ["X", "O"].none?{|board|board.position_taken?}
+  ["X", "O"].any?{|board|board == "X" || "O"}
 end
