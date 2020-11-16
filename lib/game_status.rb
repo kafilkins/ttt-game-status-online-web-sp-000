@@ -43,3 +43,5 @@ def draw?(board)
       return false
     end
   end
+
+  def winner?(board, token = "X" or "O")
