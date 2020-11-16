@@ -25,7 +25,7 @@ return false
 end
 
 def full?(board)
-  if position_taken? == "X" or board == "O"
+  if position_taken?[board, index] == "X" or board == "O"
     return true
   else
     return false
