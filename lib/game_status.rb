@@ -29,5 +29,7 @@ def full?(board)
   if WIN_COMBINATIONS == board
     return
     false
+  else 
+    return true
   end
 end
