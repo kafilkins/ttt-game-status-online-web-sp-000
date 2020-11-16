@@ -23,3 +23,7 @@ end
 end
 return false
 end
+
+def full?(board)
+  ["X", "O"].none?{|board|board.position_taken?}
+end
