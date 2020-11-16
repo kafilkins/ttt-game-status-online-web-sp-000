@@ -44,10 +44,10 @@ def draw?(board)
     end
   end
 def winner?(board)
-  if board == WIN_COMBINATIONS
-    return "X"
-  else
-    return "O"
-  end
-end
-  
+  index = [ ]
+  index = won?(board)
+  if index == false
+    return nil
+  elsif board[index[0]] == "X"
+      return true
+    else
