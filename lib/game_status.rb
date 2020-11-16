@@ -25,7 +25,7 @@ return false
 end
 
 def full?(board)
-  if board == "X" || board == "O"
+  if board[index] == "X" || board == "O"
     return true
   else
     return false
