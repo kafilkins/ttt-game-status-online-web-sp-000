@@ -27,10 +27,10 @@ end
 def full?(board)
   if board == "X" || board == "O"
     return true
-  else 
+  else
     return false
   end
 end
-  
-  
+
+
 end
