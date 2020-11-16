@@ -27,3 +27,13 @@ end
 def full?(board)
   board.all? {|index| index == "X" || index == "O"}
 end
+
+def draw?(board)
+  if board[full?] == WIN_COMBINATIONS
+    return  true
+  elsif 
+    return false
+  else board == WIN_COMBINATIONS
+    return false
+  end
+  end
