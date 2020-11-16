@@ -27,8 +27,8 @@ end
 def full?(board)
   ["X", "O"].any?{|board|board == "X" || "O"}
   if won? == board
-    return true
-  else
     return false
+  else
+    return true
   end
 end
