@@ -28,5 +28,7 @@ def full?(board)
   ["X", "O"].any?{|board|board == "X" || "O"}
   if board == WIN_COMBINATIONS
   return false
+else
+  return true
 end
 end
